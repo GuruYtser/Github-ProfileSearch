@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,300;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: url("background/github.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+nav{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 40%;
+    height: 31%;
+    padding-left: 15px;
+    border-radius: 100px 0px 0px 100px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    height: 43px;
+    border-radius: 0px 100px 100px 0px;
+}
+.userCard{
+    height: 60vh;
+    width: 30vw;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+img{
+    width: 20vh;
+    height: 10vw;
+    border-radius: 100px;
+}
+.follows{
+    width: 30vh;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.followers{
+    color: white;
+    font-size: 15px;
+}
+.following{
+    color: white;
+    font-size: 15px;
+}
+.bio{
+    height: 15vh;
+    width: 20vw;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.name{
+    font-size: 20px;
+    color: white;
+}
+.repos{
+    color: white;
+}
+h1{
+    color: white;
+    height: 1%;
+}
